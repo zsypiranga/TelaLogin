@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container{
+    background-image: url(Imagens/Foto\ 1.gif);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tela{
+    width: 800px;
+    height: 400px;
+    background-color: rgba(61, 11, 95, 0.4);
+    border: 2px solid rgba(247, 0, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+input[type= "email"], input[type= "password"]  {
+    height: 50px;
+    margin: 5px;
+    width: 400px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid rgba(247, 0, 255, 1);;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+input[type= "email"]::placeholder, input[type= "password"]::placeholder  {
+  color: #fff;
+  font-size: 15px;
+ 
+}
+
+input[type= "email"]:hover, input[type= "password"]:hover {
+    
+    box-shadow: 0 0 2px 5px rgba(221, 92, 238, 0.5), 0 0 10px 5px rgba(255, 93, 233, 0.5), 0 0 10px 10px rgba(255, 0, 242, 0.3);
+
+}
+input[type= "button"]{
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid rgba(247, 0, 255, 1);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+input[type= "button"]:hover{
+    box-shadow: 0 0 2px 5px rgba(221, 92, 238, 0.5), 0 0 10px 5px rgba(255, 93, 233, 0.5), 0 0 10px 10px rgba(255, 0, 242, 0.3);
+    background-color: #fa62ff9f;
+    height: 60px;
+    width: 150px;
+
+}
